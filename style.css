@@ -1,0 +1,147 @@
+* {
+  margin:  0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+#nav{
+  position: absolute;
+  width: 100%;
+  height: 5%;
+  background-color: #2d3e52;
+}
+.divs{
+  position: relative;
+  left: 40px;
+  top: 50px;
+  padding-bottom: 10px;
+}
+
+.entrada{
+  position: absolute;
+  left: 170px;
+}
+.texto{
+  width: 160px;
+  text-align: right;
+  font-size: 16px;
+  color: #2d3e52;
+  font-family: 'Lato', sans-serif;
+}
+
+#primero{
+  width: 50px;
+}
+#segundo{
+  margin-left: 63px;
+  width: 50px;
+}
+#tercero{
+  margin-left: 127px;
+  width: 50px;
+}
+
+.botones{
+  margin-left: 220px;
+  width: 100px;
+}
+#myDiagramDiv{
+  width:60%;
+  height:380px;
+  background-color: #f5f5f5;
+  margin-bottom: 10px;
+  border: 1px solid #BBB6BC;
+  float: left;
+}
+
+input[type="text"]{
+  height: 22px;
+  width: 178px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding-left: 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border: 1px solid #BDC2C9;
+}
+input[type="text"]:focus{
+outline:0px;
+-webkit-box-shadow: 0 0 1px 1px #6392c5;
+-moz-box-shadow: 0 0 1px 1px #6392c5;
+box-shadow: 0 0 1px 1px #6392c5;
+}
+
+
+.botones{
+  padding: 5px 15px;
+  width: 120px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #2d3e52;
+  font-family: 'Ubuntu', sans-serif;
+}
+.botones:hover{
+  background-color:#EA6B1D;
+}
+
+input[type="text"]:disabled {
+    background: #dddddd;
+}
+
+#seleccion{
+  padding: 5px 15px;
+  width: 190px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color:#2d3e52;
+  font-family: 'Ubuntu', sans-serif;
+}
+#solve{
+  padding: 5px 15px;
+  width: 120px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color:#4965b5;
+  font-family: 'Ubuntu', sans-serif;
+}
+#div-solve{
+  clear: both;
+  position: relative;
+  text-align: right;
+  right: 515px;
+}
+#solve:hover{
+  background-color: #2874A6;
+}
+.addNodo{
+  padding: 5px 15px;
+  width: 190px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  background-color: #2d3e52;
+  font-family: 'Ubuntu', sans-serif;
+}
+.addNodo:hover{
+  background-color:#EA6B1D;
+}
+#area{
+  width: 440px;
+  height: 380px;
+  border: 1px solid #BBB6BC;
+}
+#titulo{
+  text-align: center;
+  padding-top: 5px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
+}
+#info{
+  position: relative;
+  top: -18px;
+}

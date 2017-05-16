@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+  <script src="go.js"></script>
+  <script src="grafo.js"></script>
+
+</head>
+<body onload="goIntro()">
+  <nav id="nav">
+    <p id="titulo">Métodos de Búsquedas</p>
+    <nav>
+      <div id="info">
+      <div class="divs">
+        <p class="texto">Agregar nodo
+
+        <input type="button" value="Agregar" class="entrada addNodo" onclick="addGraph()">
+      </p>
+    </div>
+
+    <div class="divs">
+      <p class="texto">Agregar arista
+        <input type="text" placeholder="De" class="entrada" id="primero"></input>
+        <input type="text" placeholder="A" class="entrada" id="segundo"></input>
+        <input type="text" placeholder="Peso" class="entrada" id="tercero"></input>
+        <input type="button" value="Agregar" class="entrada botones" onclick="addVertice()">
+      </p>
+    </div>
+
+    <div class="divs" id="div1">
+      <p class="texto">Estado Inicial
+        <input type="text" placeholder="Edo. Inicial" id="EdoIn" class="entrada"></input>
+      </p>
+    </div>
+
+    <div class="divs" id="div2">
+      <p class="texto">Estado Final
+        <input type="text" placeholder="Edo. Meta" id="EdoFin" class="entrada"></input>
+      </p>
+    </div>
+
+    <div class="divs" id="div2">
+      <p class="texto">Límite
+        <input type="text" placeholder="Límite" id="limite" class="entrada"></input>
+      </p>
+    </div>
+
+  <div class="divs" id="div0">
+  <p class="texto">Método de búsqueda
+  <select name="busqueda" id="seleccion" class="entrada">
+    <option value="1" >Preferente por amplitud</option>
+    <option value="2">Preferente por profundidad</option>
+    <option value="3">Costo uniforme</option>
+    <option value="4">Profundida limitada</option>
+    <option value="5">Profundidad iterativa</option>
+  </select>
+</p>
+</div>
+</div>
+
+  <div class="divs">
+  <div id="myDiagramDiv"></div>
+<div>
+  <textarea id="area">
+  </textarea>
+</div>
+<div id="div-solve">
+<input type="button" value="Solve" id="solve" onclick="busquedas()">
+</div>
+</div>
+
+
+
+<script src="busquedas.js"></script>
+</boyd>
+</html>
